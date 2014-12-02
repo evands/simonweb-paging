@@ -7,4 +7,6 @@ This app was originally written for the SimmonWeb hospital paging systems at Gra
 
 Paging within other hospital systems which are using a SimonWeb-based system may be possible using this app with minor modifications. I'm making the source code available in case it is useful. I am not able to provide developer or user level support for this.
 
+The main customization needed when moving from Vandy to Emory was specified via the PagingHostName, PagingMaxCharacters, and PagingPrefix in the Info.plist file for each app. Other systems may require more extensive customization than that.
+
 -evands
