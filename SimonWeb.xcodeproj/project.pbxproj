@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SimonWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SimonWebAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SimonWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SimonWebViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SimonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SimonWebViewController.m */; };
+		3405EC3E0F30C5DA00C19BEE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		3405EC3F0F30C5DA00C19BEE /* SimonWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SimonWebViewController.xib */; };
+		3405EC400F30C5DA00C19BEE /* FavoriteEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5DEF0EFA903900481918 /* FavoriteEditor.xib */; };
+		3405EC410F30C5DA00C19BEE /* PeopleSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5E9C0EFA99E400481918 /* PeopleSelector.xib */; };
+		3405EC420F30C5DA00C19BEE /* FavoritesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5ED90EFA9C8B00481918 /* FavoritesView.xib */; };
+		3405EC430F30C5DA00C19BEE /* pager-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5F500EFAAC9300481918 /* pager-57.png */; };
+		3405EC440F30C5DA00C19BEE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5FBE0EFAC58900481918 /* Default.png */; };
+		3405EC450F30C5DA00C19BEE /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 349D64150F060F3900922F5D /* Entitlements.plist */; };
+		3405EC470F30C5DA00C19BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		3405EC480F30C5DA00C19BEE /* SimonWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SimonWebAppDelegate.m */; };
+		3405EC490F30C5DA00C19BEE /* SimonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SimonWebViewController.m */; };
+		3405EC4A0F30C5DA00C19BEE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5C920EF98B2600481918 /* Reachability.m */; };
+		3405EC4B0F30C5DA00C19BEE /* SimonFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DE60EFA8B4500481918 /* SimonFavoritesViewController.m */; };
+		3405EC4C0F30C5DA00C19BEE /* SimonFavoriteEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DEB0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m */; };
+		3405EC4D0F30C5DA00C19BEE /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5E4F0EFA951A00481918 /* DetailCell.m */; };
+		3405EC4F0F30C5DA00C19BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		3405EC500F30C5DA00C19BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		3405EC510F30C5DA00C19BEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3405EC520F30C5DA00C19BEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347F5CED0EF98C5500481918 /* SystemConfiguration.framework */; };
+		3420D0EB10424EC4002C8579 /* SimonWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SimonWebViewController.xib */; };
+		3420D0EC10424EC4002C8579 /* FavoriteEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5DEF0EFA903900481918 /* FavoriteEditor.xib */; };
+		3420D0ED10424EC4002C8579 /* PeopleSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5E9C0EFA99E400481918 /* PeopleSelector.xib */; };
+		3420D0EE10424EC4002C8579 /* FavoritesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5ED90EFA9C8B00481918 /* FavoritesView.xib */; };
+		3420D0EF10424EC4002C8579 /* pager-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5F500EFAAC9300481918 /* pager-57.png */; };
+		3420D0F010424EC4002C8579 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5FBE0EFAC58900481918 /* Default.png */; };
+		3420D0F110424EC4002C8579 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 349D64150F060F3900922F5D /* Entitlements.plist */; };
+		3420D0F310424EC4002C8579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		3420D0F410424EC4002C8579 /* SimonWebAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SimonWebAppDelegate.m */; };
+		3420D0F510424EC4002C8579 /* SimonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SimonWebViewController.m */; };
+		3420D0F610424EC4002C8579 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5C920EF98B2600481918 /* Reachability.m */; };
+		3420D0F710424EC4002C8579 /* SimonFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DE60EFA8B4500481918 /* SimonFavoritesViewController.m */; };
+		3420D0F810424EC4002C8579 /* SimonFavoriteEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DEB0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m */; };
+		3420D0F910424EC4002C8579 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5E4F0EFA951A00481918 /* DetailCell.m */; };
+		3420D0FB10424EC4002C8579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		3420D0FC10424EC4002C8579 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		3420D0FD10424EC4002C8579 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		3420D0FE10424EC4002C8579 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347F5CED0EF98C5500481918 /* SystemConfiguration.framework */; };
+		3420D11210424F1B002C8579 /* SatellinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3420D11110424F1B002C8579 /* SatellinkViewController.m */; };
+		3442EF681224D60600D3B026 /* pager-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF671224D60600D3B026 /* pager-57@2x.png */; };
+		3442EF691224D60700D3B026 /* pager-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF671224D60600D3B026 /* pager-57@2x.png */; };
+		3442EF6A1224D60700D3B026 /* pager-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF671224D60600D3B026 /* pager-57@2x.png */; };
+		3442EF8B1224D6F100D3B026 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF8A1224D6F100D3B026 /* Default@2x.png */; };
+		3442EF8C1224D6F100D3B026 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF8A1224D6F100D3B026 /* Default@2x.png */; };
+		3442EF8D1224D6F100D3B026 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3442EF8A1224D6F100D3B026 /* Default@2x.png */; };
+		347F5C940EF98B2600481918 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5C920EF98B2600481918 /* Reachability.m */; };
+		347F5CEE0EF98C5500481918 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347F5CED0EF98C5500481918 /* SystemConfiguration.framework */; };
+		347F5DE70EFA8B4500481918 /* SimonFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DE60EFA8B4500481918 /* SimonFavoritesViewController.m */; };
+		347F5DEC0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5DEB0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m */; };
+		347F5DF00EFA903900481918 /* FavoriteEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5DEF0EFA903900481918 /* FavoriteEditor.xib */; };
+		347F5E510EFA951A00481918 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 347F5E4F0EFA951A00481918 /* DetailCell.m */; };
+		347F5E9D0EFA99E400481918 /* PeopleSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5E9C0EFA99E400481918 /* PeopleSelector.xib */; };
+		347F5EDA0EFA9C8B00481918 /* FavoritesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347F5ED90EFA9C8B00481918 /* FavoritesView.xib */; };
+		347F5F510EFAAC9300481918 /* pager-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5F500EFAAC9300481918 /* pager-57.png */; };
+		347F5FBF0EFAC58900481918 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 347F5FBE0EFAC58900481918 /* Default.png */; };
+		349D64160F060F3900922F5D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 349D64150F060F3900922F5D /* Entitlements.plist */; };
+		34B18DF510784A4800F2F209 /* MainWindow Vandy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B18DF410784A4800F2F209 /* MainWindow Vandy.xib */; };
+		34B18E271078566F00F2F209 /* FavoriteEditorVandy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B18E261078566F00F2F209 /* FavoriteEditorVandy.xib */; };
+		34D018AC171B302800967913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D018AB171B302800967913 /* Default-568h@2x.png */; };
+		34D018AD171B302800967913 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D018AB171B302800967913 /* Default-568h@2x.png */; };
+		34D018B0171B32B700967913 /* TransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D018AF171B32B700967913 /* TransparentToolbar.m */; };
+		34D018B1171B32B700967913 /* TransparentToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D018AF171B32B700967913 /* TransparentToolbar.m */; };
+		34D018B4171B32F000967913 /* TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D018B3171B32F000967913 /* TransparentNavBar.m */; };
+		34D018B5171B32F000967913 /* TransparentNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D018B3171B32F000967913 /* TransparentNavBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SimonWebAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonWebAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SimonWebAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonWebAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SimonWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SimonWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimonWebViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SimonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonWebViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SimonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonWebViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SimonWeb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonWeb_Prefix.pch; sourceTree = "<group>"; };
+		3405EC570F30C5DA00C19BEE /* SimonWebUVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonWebUVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3405EC590F30C5DA00C19BEE /* UVA.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UVA.plist; sourceTree = "<group>"; };
+		3420D10310424EC4002C8579 /* VandyPaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VandyPaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3420D10510424EC4002C8579 /* Emory copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Emory copy.plist"; sourceTree = "<group>"; };
+		3420D11010424F1B002C8579 /* SatellinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatellinkViewController.h; sourceTree = "<group>"; };
+		3420D11110424F1B002C8579 /* SatellinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SatellinkViewController.m; sourceTree = "<group>"; };
+		3442EF671224D60600D3B026 /* pager-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pager-57@2x.png"; path = "Resources/pager-57@2x.png"; sourceTree = "<group>"; };
+		3442EF8A1224D6F100D3B026 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
+		346A60720F022D92009F3A0D /* ab */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ab; sourceTree = "<group>"; };
+		347F5C920EF98B2600481918 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		347F5C930EF98B2600481918 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		347F5CED0EF98C5500481918 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		347F5DC90EFA893600481918 /* SimonPeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimonPeopleViewController.h; path = Classes/SimonPeopleViewController.h; sourceTree = "<group>"; };
+		347F5DCA0EFA893600481918 /* SimonPeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimonPeopleViewController.m; path = Classes/SimonPeopleViewController.m; sourceTree = "<group>"; };
+		347F5DE50EFA8B4500481918 /* SimonFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonFavoritesViewController.h; sourceTree = "<group>"; };
+		347F5DE60EFA8B4500481918 /* SimonFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonFavoritesViewController.m; sourceTree = "<group>"; };
+		347F5DEA0EFA8CFA00481918 /* SimonFavoriteEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonFavoriteEditorViewController.h; sourceTree = "<group>"; };
+		347F5DEB0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonFavoriteEditorViewController.m; sourceTree = "<group>"; };
+		347F5DEF0EFA903900481918 /* FavoriteEditor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FavoriteEditor.xib; path = Resources/FavoriteEditor.xib; sourceTree = "<group>"; };
+		347F5E4F0EFA951A00481918 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		347F5E500EFA951A00481918 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		347F5E9C0EFA99E400481918 /* PeopleSelector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PeopleSelector.xib; path = Resources/PeopleSelector.xib; sourceTree = "<group>"; };
+		347F5ED90EFA9C8B00481918 /* FavoritesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FavoritesView.xib; path = Resources/FavoritesView.xib; sourceTree = "<group>"; };
+		347F5F500EFAAC9300481918 /* pager-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pager-57.png"; path = "Resources/pager-57.png"; sourceTree = "<group>"; };
+		347F5FBE0EFAC58900481918 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		349D64150F060F3900922F5D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = Resources/Entitlements.plist; sourceTree = "<group>"; };
+		34B18DF410784A4800F2F209 /* MainWindow Vandy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow Vandy.xib"; sourceTree = "<group>"; };
+		34B18E261078566F00F2F209 /* FavoriteEditorVandy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FavoriteEditorVandy.xib; path = Resources/FavoriteEditorVandy.xib; sourceTree = "<group>"; };
+		34D018AB171B302800967913 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		34D018AE171B32B700967913 /* TransparentToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentToolbar.h; sourceTree = "<group>"; };
+		34D018AF171B32B700967913 /* TransparentToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentToolbar.m; sourceTree = "<group>"; };
+		34D018B2171B32F000967913 /* TransparentNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentNavBar.h; sourceTree = "<group>"; };
+		34D018B3171B32F000967913 /* TransparentNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentNavBar.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Emory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emory.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				347F5CEE0EF98C5500481918 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405EC4E0F30C5DA00C19BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405EC4F0F30C5DA00C19BEE /* Foundation.framework in Frameworks */,
+				3405EC500F30C5DA00C19BEE /* UIKit.framework in Frameworks */,
+				3405EC510F30C5DA00C19BEE /* CoreGraphics.framework in Frameworks */,
+				3405EC520F30C5DA00C19BEE /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3420D0FA10424EC4002C8579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420D0FB10424EC4002C8579 /* Foundation.framework in Frameworks */,
+				3420D0FC10424EC4002C8579 /* UIKit.framework in Frameworks */,
+				3420D0FD10424EC4002C8579 /* CoreGraphics.framework in Frameworks */,
+				3420D0FE10424EC4002C8579 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				346A60720F022D92009F3A0D /* ab */,
+				1D3623240D0F684500981E51 /* SimonWebAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SimonWebAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SimonWebViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SimonWebViewController.m */,
+				347F5C930EF98B2600481918 /* Reachability.h */,
+				347F5C920EF98B2600481918 /* Reachability.m */,
+				347F5DE50EFA8B4500481918 /* SimonFavoritesViewController.h */,
+				347F5DE60EFA8B4500481918 /* SimonFavoritesViewController.m */,
+				34D018AE171B32B700967913 /* TransparentToolbar.h */,
+				34D018AF171B32B700967913 /* TransparentToolbar.m */,
+				34D018B2171B32F000967913 /* TransparentNavBar.h */,
+				34D018B3171B32F000967913 /* TransparentNavBar.m */,
+				347F5DEA0EFA8CFA00481918 /* SimonFavoriteEditorViewController.h */,
+				347F5DEB0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m */,
+				347F5E4F0EFA951A00481918 /* DetailCell.m */,
+				347F5E500EFA951A00481918 /* DetailCell.h */,
+				3420D11010424F1B002C8579 /* SatellinkViewController.h */,
+				3420D11110424F1B002C8579 /* SatellinkViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SimonWeb.app */,
+				3405EC570F30C5DA00C19BEE /* SimonWebUVA.app */,
+				3420D10310424EC4002C8579 /* VandyPaging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				349D64150F060F3900922F5D /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				347F5DC90EFA893600481918 /* SimonPeopleViewController.h */,
+				347F5DCA0EFA893600481918 /* SimonPeopleViewController.m */,
+				32CA4F630368D1EE00C91783 /* SimonWeb_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34D018AB171B302800967913 /* Default-568h@2x.png */,
+				347F5FBE0EFAC58900481918 /* Default.png */,
+				3442EF8A1224D6F100D3B026 /* Default@2x.png */,
+				3442EF671224D60600D3B026 /* pager-57@2x.png */,
+				347F5F500EFAAC9300481918 /* pager-57.png */,
+				2899E5210DE3E06400AC0155 /* SimonWebViewController.xib */,
+				347F5DEF0EFA903900481918 /* FavoriteEditor.xib */,
+				34B18E261078566F00F2F209 /* FavoriteEditorVandy.xib */,
+				347F5E9C0EFA99E400481918 /* PeopleSelector.xib */,
+				347F5ED90EFA9C8B00481918 /* FavoritesView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Emory.plist */,
+				3405EC590F30C5DA00C19BEE /* UVA.plist */,
+				34B18DF410784A4800F2F209 /* MainWindow Vandy.xib */,
+				3420D10510424EC4002C8579 /* Emory copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347F5CED0EF98C5500481918 /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SimonWeb Emory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimonWeb Emory" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimonWeb Emory";
+			productName = SimonWeb;
+			productReference = 1D6058910D05DD3D006BFB54 /* SimonWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3405EC3C0F30C5DA00C19BEE /* SimonWeb UVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3405EC530F30C5DA00C19BEE /* Build configuration list for PBXNativeTarget "SimonWeb UVA" */;
+			buildPhases = (
+				3405EC3D0F30C5DA00C19BEE /* Resources */,
+				3405EC460F30C5DA00C19BEE /* Sources */,
+				3405EC4E0F30C5DA00C19BEE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SimonWeb UVA";
+			productName = SimonWeb;
+			productReference = 3405EC570F30C5DA00C19BEE /* SimonWebUVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3420D0E810424EC4002C8579 /* Satellink Vandy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3420D0FF10424EC4002C8579 /* Build configuration list for PBXNativeTarget "Satellink Vandy" */;
+			buildPhases = (
+				3420D0E910424EC4002C8579 /* Resources */,
+				3420D0F210424EC4002C8579 /* Sources */,
+				3420D0FA10424EC4002C8579 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Satellink Vandy";
+			productName = SimonWeb;
+			productReference = 3420D10310424EC4002C8579 /* VandyPaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					3420D0E810424EC4002C8579 = {
+						DevelopmentTeam = BXN2WS3GLG;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimonWeb" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SimonWeb Emory */,
+				3405EC3C0F30C5DA00C19BEE /* SimonWeb UVA */,
+				3420D0E810424EC4002C8579 /* Satellink Vandy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SimonWebViewController.xib in Resources */,
+				347F5DF00EFA903900481918 /* FavoriteEditor.xib in Resources */,
+				347F5E9D0EFA99E400481918 /* PeopleSelector.xib in Resources */,
+				347F5EDA0EFA9C8B00481918 /* FavoritesView.xib in Resources */,
+				347F5F510EFAAC9300481918 /* pager-57.png in Resources */,
+				347F5FBF0EFAC58900481918 /* Default.png in Resources */,
+				349D64160F060F3900922F5D /* Entitlements.plist in Resources */,
+				3442EF691224D60700D3B026 /* pager-57@2x.png in Resources */,
+				3442EF8C1224D6F100D3B026 /* Default@2x.png in Resources */,
+				34D018AC171B302800967913 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405EC3D0F30C5DA00C19BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405EC3E0F30C5DA00C19BEE /* MainWindow.xib in Resources */,
+				3405EC3F0F30C5DA00C19BEE /* SimonWebViewController.xib in Resources */,
+				3405EC400F30C5DA00C19BEE /* FavoriteEditor.xib in Resources */,
+				3405EC410F30C5DA00C19BEE /* PeopleSelector.xib in Resources */,
+				3405EC420F30C5DA00C19BEE /* FavoritesView.xib in Resources */,
+				3405EC430F30C5DA00C19BEE /* pager-57.png in Resources */,
+				3405EC440F30C5DA00C19BEE /* Default.png in Resources */,
+				3405EC450F30C5DA00C19BEE /* Entitlements.plist in Resources */,
+				3442EF6A1224D60700D3B026 /* pager-57@2x.png in Resources */,
+				3442EF8D1224D6F100D3B026 /* Default@2x.png in Resources */,
+				34D018AD171B302800967913 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3420D0E910424EC4002C8579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420D0EB10424EC4002C8579 /* SimonWebViewController.xib in Resources */,
+				3420D0EC10424EC4002C8579 /* FavoriteEditor.xib in Resources */,
+				3420D0ED10424EC4002C8579 /* PeopleSelector.xib in Resources */,
+				3420D0EE10424EC4002C8579 /* FavoritesView.xib in Resources */,
+				3420D0EF10424EC4002C8579 /* pager-57.png in Resources */,
+				3420D0F010424EC4002C8579 /* Default.png in Resources */,
+				3420D0F110424EC4002C8579 /* Entitlements.plist in Resources */,
+				34B18DF510784A4800F2F209 /* MainWindow Vandy.xib in Resources */,
+				34B18E271078566F00F2F209 /* FavoriteEditorVandy.xib in Resources */,
+				3442EF681224D60600D3B026 /* pager-57@2x.png in Resources */,
+				3442EF8B1224D6F100D3B026 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SimonWebAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SimonWebViewController.m in Sources */,
+				347F5C940EF98B2600481918 /* Reachability.m in Sources */,
+				347F5DE70EFA8B4500481918 /* SimonFavoritesViewController.m in Sources */,
+				347F5DEC0EFA8CFA00481918 /* SimonFavoriteEditorViewController.m in Sources */,
+				347F5E510EFA951A00481918 /* DetailCell.m in Sources */,
+				34D018B0171B32B700967913 /* TransparentToolbar.m in Sources */,
+				34D018B4171B32F000967913 /* TransparentNavBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405EC460F30C5DA00C19BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405EC470F30C5DA00C19BEE /* main.m in Sources */,
+				3405EC480F30C5DA00C19BEE /* SimonWebAppDelegate.m in Sources */,
+				3405EC490F30C5DA00C19BEE /* SimonWebViewController.m in Sources */,
+				3405EC4A0F30C5DA00C19BEE /* Reachability.m in Sources */,
+				3405EC4B0F30C5DA00C19BEE /* SimonFavoritesViewController.m in Sources */,
+				3405EC4C0F30C5DA00C19BEE /* SimonFavoriteEditorViewController.m in Sources */,
+				3405EC4D0F30C5DA00C19BEE /* DetailCell.m in Sources */,
+				34D018B1171B32B700967913 /* TransparentToolbar.m in Sources */,
+				34D018B5171B32F000967913 /* TransparentNavBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3420D0F210424EC4002C8579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3420D0F310424EC4002C8579 /* main.m in Sources */,
+				3420D0F410424EC4002C8579 /* SimonWebAppDelegate.m in Sources */,
+				3420D0F510424EC4002C8579 /* SimonWebViewController.m in Sources */,
+				3420D0F610424EC4002C8579 /* Reachability.m in Sources */,
+				3420D0F710424EC4002C8579 /* SimonFavoritesViewController.m in Sources */,
+				3420D0F810424EC4002C8579 /* SimonFavoriteEditorViewController.m in Sources */,
+				3420D0F910424EC4002C8579 /* DetailCell.m in Sources */,
+				3420D11210424F1B002C8579 /* SatellinkViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				INFOPLIST_FILE = Emory.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = SimonWeb;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				INFOPLIST_FILE = Emory.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = SimonWeb;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3405EC540F30C5DA00C19BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_UVA;
+				INFOPLIST_FILE = UVA.plist;
+				PRODUCT_NAME = SimonWebUVA;
+			};
+			name = Debug;
+		};
+		3405EC550F30C5DA00C19BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_UVA;
+				INFOPLIST_FILE = UVA.plist;
+				PRODUCT_NAME = SimonWebUVA;
+			};
+			name = Release;
+		};
+		3405EC560F30C5DA00C19BEE /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_UVA;
+				INFOPLIST_FILE = UVA.plist;
+				PRODUCT_NAME = SimonWebUVA;
+			};
+			name = "Ad-Hoc";
+		};
+		3420D10010424EC4002C8579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_VANDY;
+				INFOPLIST_FILE = "$(SRCROOT)/Emory copy.plist";
+				PRODUCT_NAME = VandyPaging;
+			};
+			name = Debug;
+		};
+		3420D10110424EC4002C8579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_VANDY;
+				INFOPLIST_FILE = "$(SRCROOT)/Emory copy.plist";
+				PRODUCT_NAME = VandyPaging;
+			};
+			name = Release;
+		};
+		3420D10210424EC4002C8579 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = SIMONWEB_VANDY;
+				INFOPLIST_FILE = "$(SRCROOT)/Emory copy.plist";
+				PRODUCT_NAME = VandyPaging;
+			};
+			name = "Ad-Hoc";
+		};
+		349D640D0F060ED100922F5D /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Resources/Entitlements.plist;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = "Ad-Hoc";
+		};
+		349D640E0F060ED100922F5D /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimonWeb_Prefix.pch;
+				INFOPLIST_FILE = Emory.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = SimonWeb;
+				SDKROOT = iphoneos;
+			};
+			name = "Ad-Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimonWeb Emory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				349D640E0F060ED100922F5D /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3405EC530F30C5DA00C19BEE /* Build configuration list for PBXNativeTarget "SimonWeb UVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3405EC540F30C5DA00C19BEE /* Debug */,
+				3405EC550F30C5DA00C19BEE /* Release */,
+				3405EC560F30C5DA00C19BEE /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3420D0FF10424EC4002C8579 /* Build configuration list for PBXNativeTarget "Satellink Vandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3420D10010424EC4002C8579 /* Debug */,
+				3420D10110424EC4002C8579 /* Release */,
+				3420D10210424EC4002C8579 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimonWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				349D640D0F060ED100922F5D /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
